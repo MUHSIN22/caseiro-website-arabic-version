@@ -18,12 +18,15 @@ $gradient-primary: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'primary', sans-serif;
 }
 html{
     scroll-behavior: smooth;
     color: $black;
-
+    direction: rtl;
+    text-align: right;
+    font-family: 'primary', sans-serif;
+    
 }
 
 
@@ -789,7 +792,7 @@ footer{
         align-items: center;
         justify-content: center;
         width: max-content;
-        margin-left: 1rem;
+        margin-right: 1rem;
         li{
             display: flex;
             align-items: center;

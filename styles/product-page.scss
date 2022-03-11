@@ -111,7 +111,7 @@
 
         .product-description-container {
             grid-area: about;
-            margin-left: 1rem;
+            margin-right: 1rem;
             border-radius: 10px;
             background: #fff;
             padding: 2rem;
@@ -142,7 +142,7 @@
                 display: flex;
 
                 .price {
-                    margin-right: 1.5rem;
+                    margin-left: 1.5rem;
                     color: #005509;
                 }
 
@@ -168,8 +168,9 @@
                 margin-top: 1.5rem;
                 margin-bottom: 1.5rem;
                 display: flex;
+                align-items: center;
                 strong {
-                    margin-right: 0.5rem;
+                    margin-left: 0.5rem;
                 }
 
                 p {

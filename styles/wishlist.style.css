@@ -10,7 +10,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'primary', sans-serif;
 }
 
 html {
@@ -105,7 +105,7 @@ html {
 }
 
 .dashboard--container .profile-name--wrapper {
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .dashboard--container .profile-name--wrapper h3 {
@@ -170,7 +170,7 @@ html {
 }
 
 .dashboard--container .nav--icon {
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .dashboard--container .wishlist-wrapper {
@@ -190,7 +190,7 @@ html {
 .dashboard--container .wishlist-img {
   height: 6rem;
   border-radius: 10px;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .dashboard--container .wishlist-content {

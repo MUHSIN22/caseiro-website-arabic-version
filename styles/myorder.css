@@ -121,7 +121,7 @@ html {
 .order-container .dashboard--container .cart-item--image {
   height: 8rem;
   border-radius: 10px;
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .order-container .dashboard--container .cart-item--body {
@@ -273,7 +273,7 @@ html {
 .order-container .filter-content .filter-items p {
   font-weight: 600;
   color: #000000;
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .order-container .btn-filter {

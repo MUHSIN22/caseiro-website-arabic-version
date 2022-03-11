@@ -10,7 +10,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'primary', sans-serif;
 }
 
 html {
@@ -106,7 +106,7 @@ html {
 }
 
 .dashboard--container .profile-name--wrapper {
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .dashboard--container .profile-name--wrapper h3 {
@@ -159,7 +159,7 @@ html {
 }
 
 .dashboard--container .nav--icon {
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .dashboard--container .profile-display--wrapper {
@@ -223,7 +223,7 @@ html {
 }
 
 .dashboard--container .email-field {
-  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .dashboard--container .btn-get-password-change {
@@ -343,7 +343,7 @@ html {
             flex-direction: column;
   }
   .dashboard--container .email-field {
-    margin-left: 0;
+    margin-right: 0;
   }
 }
 
