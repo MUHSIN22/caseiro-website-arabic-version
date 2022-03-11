@@ -53,6 +53,12 @@ header{
         justify-self: center;
         align-self: center;
     }
+    .icon{
+        height: max-content;
+        width: max-content;
+        justify-content: center;
+        align-self: center;
+    }
     #category-list,
     #core-list{
         display: flex;
@@ -308,6 +314,14 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        padding: 1rem;
+        transition: all 0.3s ease;
+        &:hover{
+            border-color: $light-pink;
+        }
     }
     .category-shopping--title{
         font-size: 3rem;
@@ -716,14 +730,12 @@ footer{
             
             cursor: pointer;
             &:first-child{
-                border-right: none;
                 border-radius: 5px 0 0 5px;
                 color: $black;
                 padding: 0.5rem 2rem;
                 cursor: auto;
             }
             &:last-child{
-                border-left: none;
                 border-radius: 0 5px 5px 0;
             }
         }

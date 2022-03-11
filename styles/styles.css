@@ -50,6 +50,21 @@ header .logo {
       align-self: center;
 }
 
+header .icon {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 header #category-list,
 header #core-list {
   display: -webkit-box;
@@ -388,6 +403,16 @@ header .mobile-menu__active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.category-shopping .category-shopping--category:hover {
+  border-color: #c44786;
 }
 
 .category-shopping .category-shopping--title {
@@ -933,7 +958,6 @@ footer .footer--link {
 }
 
 .modal-wrapper .quantity-changer li:first-child {
-  border-right: none;
   border-radius: 5px 0 0 5px;
   color: #0c0c0c;
   padding: 0.5rem 2rem;
@@ -941,7 +965,6 @@ footer .footer--link {
 }
 
 .modal-wrapper .quantity-changer li:last-child {
-  border-left: none;
   border-radius: 0 5px 5px 0;
 }
 
