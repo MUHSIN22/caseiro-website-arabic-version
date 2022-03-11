@@ -19,6 +19,9 @@
   margin-bottom: 1rem;
   border-radius: 10px;
   padding: 1.8rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .dashboard--container .manage-address-wrapper .manage-address-card .manage-address-content {
@@ -152,7 +155,7 @@
 }
 
 .dashboard--container .manage-address-wrapper .checkout-input-container .billing-address-input-content .billing-inputs .billing-checkbox .checkbox {
-  margin-right: 1rem;
+  margin-left: 1rem;
   border: 1px solid #000000;
   cursor: pointer;
   width: 2rem;
@@ -272,7 +275,7 @@
   }
   .dashboard--container .checkout-input-container .checkout-input-main .billing-address-input-content .billing-inputs .billing-checkbox .checkbox {
     height: 1.3rem;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
   .dashboard--container .checkout-input-container .checkout-input-main .billing-address-input-content .billing-inputs .billing-checkbox p {
     font-size: 0.9rem;

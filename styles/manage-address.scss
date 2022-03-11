@@ -15,6 +15,7 @@
         margin-bottom: 1rem;
         border-radius: 10px;
         padding: 1.8rem;
+        height: max-content;
 
 
         .manage-address-content {
@@ -130,7 +131,7 @@
                 margin-bottom: 2rem;
 
                 .checkbox {
-                    margin-right: 1rem;
+                    margin-left: 1rem;
                     border: 1px solid #000000;
                     cursor: pointer;
                     width: 2rem;
@@ -313,7 +314,7 @@
                     .billing-checkbox {
                         .checkbox {
                             height: 1.3rem;
-                            margin-right: 0.5rem;
+                            margin-left: 0.5rem;
                         }
 
                         p {

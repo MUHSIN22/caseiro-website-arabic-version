@@ -26,7 +26,7 @@ const autoSlider = () => {
 
     direction === "forward" ? bannerSlideIndex++: bannerSlideIndex--;
 
-    $(".carousel").css("margin-left",`-${ bannerSlideIndex*100}%`)
+    $(".carousel").css("margin-right",`-${ bannerSlideIndex*100}%`)
     $(".dot__active").removeClass("dot__active")
     $(".dot").eq(bannerSlideIndex).addClass("dot__active");
 }
@@ -39,7 +39,7 @@ const bannerDotClickSlider = () => {
         
         clearInterval(slideInterval);
         
-        $(".carousel").css("margin-left",`-${ bannerSlideIndex*100}%`)
+        $(".carousel").css("margin-right",`-${ bannerSlideIndex*100}%`)
         $(".dot__active").removeClass("dot__active")
         $(".dot").eq(bannerSlideIndex).addClass("dot__active");
         
@@ -77,16 +77,16 @@ const bannerDragSlider = () => {
 
 const bannerSliderController = (pos1,pos2) => {
     if(pos1 > pos2 && pos1 - pos2 > 100){
-        if( bannerSlideIndex !== 2){
-            bannerSlideIndex++;
-        }
-    }else if(pos2 > pos1 && pos2 - pos1 > 100){
         if( bannerSlideIndex !== 0){
             bannerSlideIndex--;
         }
+    }else if(pos2 > pos1 && pos2 - pos1 > 100){
+        if( bannerSlideIndex !== 2){
+            bannerSlideIndex++;
+        }
     }
     clearInterval(slideInterval);
-    $(".carousel").css("margin-left",`-${ bannerSlideIndex*100}%`)
+    $(".carousel").css("margin-right",`-${ bannerSlideIndex*100}%`)
     $(".dot__active").removeClass("dot__active")
     $(".dot").eq(bannerSlideIndex).addClass("dot__active");
     slideInterval = setInterval(autoSlider,5000);
@@ -110,7 +110,7 @@ const slideHomeProducts = (direction) =>{
 
     setNavigationButton();
 
-    $('.products--slider').css("margin-left",`-${homeProductSlideActive*100}%`)
+    $('.products--slider').css("margin-right",`-${homeProductSlideActive*100}%`)
     setTimeout(() => {
         $(".product--dot__active").removeClass("product--dot__active")
         $(".product--dot").eq(homeProductSlideActive).addClass("product--dot__active");
@@ -125,7 +125,7 @@ const productDotClickSlider = () => {
         
         setNavigationButton();
 
-        $(".products--slider").css("margin-left",`-${ homeProductSlideActive*100}%`)
+        $(".products--slider").css("margin-right",`-${ homeProductSlideActive*100}%`)
         setTimeout(() => {
             $(".product--dot__active").removeClass("product--dot__active")
             $(".product--dot").eq(homeProductSlideActive).addClass("product--dot__active");
@@ -172,9 +172,9 @@ const productTouchSlider = () => {
 
 const productSlide = () => {
     if(posX1 > posX2 && posX1 - posX2 > 60) {
-        slideHomeProducts("forward");
+        slideHomeProducts("back");
     }else if(posX1 < posX2 && posX2 - posX1 > 60){
-        slideHomeProducts("back")
+        slideHomeProducts("forward")
     }
 }
 

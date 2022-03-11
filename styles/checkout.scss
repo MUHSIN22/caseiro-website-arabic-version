@@ -18,7 +18,7 @@ $gradient-primary: linear-gradient(180deg, #C44786 0%, #E55C5B 100%);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'primary', sans-serif;
 }
 
 html {
@@ -52,6 +52,7 @@ html {
                 display: flex;
                 margin-bottom: 2rem;
                 cursor: pointer;
+                align-items: center;
 
                 p {
                     padding-right: 0.5rem;
@@ -65,12 +66,12 @@ html {
                 }
 
                 span {
-                    padding-right: 0.5rem;
+                    padding-left: 0.5rem;
                     color: #00000099;
                     margin-top: 1px;
                     font-size: 1rem;
                     font-weight: 100;
-
+                    transform: rotate(180deg);
                 }
             }
 
@@ -188,9 +189,9 @@ html {
 
         .total-price-container {
             background-color: #fff;
-            margin: 1rem 0 2rem 1rem;
+            margin: 1rem 1rem 2rem 0;
             width: 35%;
-            height: 37rem;
+            height: max-content;
             border-radius: 10px;
 
             .total-price-main {
@@ -274,7 +275,8 @@ html {
 
                             position: absolute;
                             top: 0;
-                            right: 0;
+                            left: 0;
+                            transform: rotate(180deg);
                         }
 
                         .coupon-code {
@@ -513,7 +515,6 @@ html {
 
             .total-price-container {
                 width: 20rem;
-                height: 35rem;
                 align-self: flex-end;
 
                 .total-price-main {
@@ -765,7 +766,6 @@ html {
             }
 
             .total-price-container {
-                height: 33rem;
 
                 .total-price-main {
                     h3 {

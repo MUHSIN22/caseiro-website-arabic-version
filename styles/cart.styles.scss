@@ -123,7 +123,7 @@ html{
     .cart-item--image{
         height: 8rem;
         border-radius: 10px;
-        margin-right: 1rem;
+        margin-left: 1rem;
     }
     .cart-item--body{
         flex: 1;
@@ -211,7 +211,7 @@ html{
         align-items: center;
         border: 1px solid #000;
         border-radius: 6px;
-        border-right: none;
+        border-left: none;
         margin: 0.5rem 0;
     }
     .coupon-input{
@@ -223,13 +223,14 @@ html{
     .btn-apply-coupon{
         background: $light-orange;
         border-radius: 6px;
-        height: 2.2rem;
+        height: 3.2rem;
         display: flex;
         align-items: center;
         justify-content: center;
         color: #Fff;
         cursor: pointer;
         padding: 0 0.5rem;
+        transform: rotate(180deg);
     }
     .list-total{
         font-size: 1.1rem;

@@ -83,7 +83,7 @@
                     cursor: pointer;
                     display: none;
                     position: absolute;
-                    right: -1rem;
+                    left: -1rem;
                     
                     .options-content {
                         width: 6rem;
@@ -92,7 +92,6 @@
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        height: 4rem;
                         box-shadow: 0px 0px 10px 0px #0000004D;
                         p{
                             font-size: 0.9rem;

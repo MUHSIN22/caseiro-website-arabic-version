@@ -1,5 +1,5 @@
 .products-page-wrapper {
-      grid-template-areas: "cover cover" "filter products" "footer footer";
+      grid-template-areas: "cover cover" "filter products" "footer footer";
   -ms-grid-columns: 16rem auto;
       grid-template-columns: 16rem auto;
   -ms-grid-rows: auto auto auto;
@@ -24,7 +24,6 @@
   display: -ms-flexbox;
   display: flex;
   background: #fff;
-  height: 35rem;
   padding: 1rem 1rem 0 1rem;
   border-radius: 10px;
 }
@@ -253,7 +252,7 @@
 
 @media only screen and (max-width: 850px) {
   .products-page-wrapper {
-        grid-template-areas: "cover " "products";
+        grid-template-areas: "cover " "products";
     -ms-grid-columns: auto;
         grid-template-columns: auto;
   }

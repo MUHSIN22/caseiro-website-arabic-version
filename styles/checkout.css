@@ -10,7 +10,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'primary', sans-serif;
 }
 
 html {
@@ -56,6 +56,9 @@ html {
   display: flex;
   margin-bottom: 2rem;
   cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .checkout--container .checkout-main .checkout-input-container .checkout-header p {
@@ -70,11 +73,13 @@ html {
 }
 
 .checkout--container .checkout-main .checkout-input-container .checkout-header span {
-  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   color: #00000099;
   margin-top: 1px;
   font-size: 1rem;
   font-weight: 100;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .checkout--container .checkout-main .checkout-input-container .billing-address-header {
@@ -196,9 +201,11 @@ html {
 
 .checkout--container .checkout-main .total-price-container {
   background-color: #fff;
-  margin: 1rem 0 2rem 1rem;
+  margin: 1rem 1rem 2rem 0;
   width: 35%;
-  height: 37rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   border-radius: 10px;
 }
 
@@ -289,7 +296,9 @@ html {
   position: absolute;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .checkout--container .checkout-main .total-price-container .total-price-main .total-price-content .coupon-code-container .coupon-code {
@@ -452,7 +461,6 @@ html {
   }
   .checkout--container .checkout-main .total-price-container {
     width: 20rem;
-    height: 35rem;
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
@@ -595,9 +603,6 @@ html {
     width: 7rem;
     height: 2.5rem;
     font-size: 0.8rem;
-  }
-  .checkout--container .checkout-main .total-price-container {
-    height: 33rem;
   }
   .checkout--container .checkout-main .total-price-container .total-price-main h3 {
     font-size: 1rem;
