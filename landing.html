@@ -19,40 +19,40 @@
 
         </div>
         <div class="head">
-			<div class="menu-icon" onclick="toggleMenu()">
-				<div>
-					<span></span>
-					<span></span>
-				</div>
-			</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
             <ul id="category-list">
                 <li>
-                    <a class="category category--active" href="#">فن</a>
+                    <a class="category category--active" href="#">Art</a>
                 </li>
                 <li>
-                    <a class="category" href="#">غذاء</a>
+                    <a class="category" href="#">Food</a>
                 </li>
                 <li>
-                    <a class="category" href="#">موضه</a>
+                    <a class="category" href="#">Fashion</a>
                 </li>
                 <li>
-                    <a class="category" href="#">الهدايا</a>
+                    <a class="category" href="#">Gift</a>
                 </li>
                 <li>
-                    <a class="category" href="#">جمال</a>
+                    <a class="category" href="#">Beauty</a>
                 </li>
             </ul>
             <img src="assets/logo.png" class="logo" alt="">
             <ul id="core-list">
                 <li>
-                    <a class="category core-rm" href="#">حول</a>
+                    <a class="category core-rm" href="#">About</a>
                 </li>
                 <li>
-                    <a class="category core-rm" href="#">الدعم</a>
+                    <a class="category core-rm" href="#">Support</a>
                 </li>
                 <li class="category search-icon-wrapper" onclick="openSearch()">
                     <i class="material-icons search-icon--link">search</i>
-                </li> 
+                </li>
                 <li class="category">
                     <a href="/profile.html" class="material-icons">person_outline</a>
                 </li>
@@ -61,38 +61,38 @@
                 </li>
             </ul>
         </div>
-		<form class="search-container">
-			<div class="search-wrapper">
-				<i class="material-icons search-icon">search</i>
-				<input type="search" name="search" placeholder="ابحث هنا..." id="search-input" class="search-input">
-				<button type="submit" class="btn-search">بحث</button>
-				<i class="material-icons-outlined close-icon" onclick="closeSearch()">close</i>
-			</div>
-		</form>
+        <form class="search-container">
+            <div class="search-wrapper">
+                <i class="material-icons search-icon">search</i>
+                <input type="search" name="search" placeholder="Search here..." id="search-input" class="search-input">
+                <button type="submit" class="btn-search">Search</button>
+                <i class="material-icons-outlined close-icon" onclick="closeSearch()">close</i>
+            </div>
+        </form>
 
-		<ul class="mobile-menu">
-			<li>
-				<a class="menu--item" href="#">فن</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">غذاء</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">موضه</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">الهدايا</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">جمال</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">حول</a>
-			</li>
-			<li>
-				<a class="menu--item" href="#">الدعم</a>
-			</li>
-		</ul>
+        <ul class="mobile-menu">
+            <li>
+                <a class="menu--item" href="#">Art</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">Food</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">Fashion</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">Gift</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">Beauty</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">About</a>
+            </li>
+            <li>
+                <a class="menu--item" href="#">Support</a>
+            </li>
+        </ul>
     </header>
 
     <main class="products-page-wrapper">
@@ -218,530 +218,227 @@
             </div>
         </nav>
         <div class="product-listing">
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex One for Unisex </p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
 
+
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scent Make My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
 
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume2.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scent Make My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume2.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scent Make My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume2.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scent Make My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume5.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scent Make My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume3.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume3.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
 
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
+            <div class="product--card">
+                <div class="card--image-wrapper">
+                    <img   class="product--image" src="assets/images/perfume4.webp" alt="">
+                    <i class="material-icons-outlined wishlist-outlined" onclick="addToWishlist()">favorite_border</i>
+                </div>
+                <h3 class="product-card--title">FOGG Scen My Day Eau de Parfum - 100 ml  (For Women)</h3>
+                    <div class="add-to-cart">
+                    <p class="product--price">AED 600.00</p>
+                    <button>Add to cart</button>
                 </div>
             </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <span class="material-icons wishlist-outlined">
-                        favorite_border
-                    </span>
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="card-content">
-                    <img class="item" src="/assets/images/perfume3.webp" alt="">
-                    <p>Calvin Klein One for Unisex
-                        One for Unisex</p>
-                    <div class="button-container">
-                        <p class="cost">AED 500.00</p>
-                        <button>Add to cart</button>
-                    </div>
-
-                </div>
-            </div>
-
         </div>
         </div>
     </main>
     <footer>
-		<img src="assets/images/footer logo.png" class="footer-logo" alt="">
-		<div class="help-container">
-			<h3 class="footer--title">مساعدة</h3>
-			<ul class="footer-links">
-				<li>
-					<a href="#" class="footer--link">مركز المساعدة</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">اتصل بنا</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">العودة و الصرف</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">المكافآت</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">أوص أحد الأصدقاء</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">سياسة الشحن</a>
-				</li>
-			</ul>
-		</div>
-		<div class="shop-container">
-			<h3 class="footer--title">محل</h3>
-			<ul class="footer-links">
-				<li>
-					<a href="#" class="footer--link">ملك الرجال</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">للنساء</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">أطفال</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">مكملات</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">تخفيض السعر</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">الطلاب</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">رموز الهدايا الإلكترونية</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">أوامر الشركات</a>
-				</li>
-			</ul>
-		</div>
-		<div class="company-container">
-			<h3 class="footer--title">شركة</h3>
-			<ul class="footer-links">
-				<li>
-					<a href="#" class="footer--link">معلومات عنا</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">وظائف</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">كن بائع تجزئة</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">فروعنا</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">سفراء</a>
-				</li>
-				<li>
-					<a href="#" class="footer--link">برنامج الانتساب</a>
-				</li>
-			</ul>
-		</div>
-		<p class="copyright">
-			&copy;caseiro.كل الحقوق محفوظة. سياسة الخصوصية وإشعار حقوق النشر. 
-		</p>
-	</footer>
+        <img src="assets/images/footer logo.png" class="footer-logo" alt="">
+        <div class="help-container">
+            <h3 class="footer--title">Help</h3>
+            <ul class="footer-links">
+                <li>
+                    <a href="#" class="footer--link">Help Center</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Return & Exchange</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Rewards</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Refer a Friend</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Shipping Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="shop-container">
+            <h3 class="footer--title">Shop</h3>
+            <ul class="footer-links">
+                <li>
+                    <a href="#" class="footer--link">Men’s</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Women’s</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Kid’s</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Accessories</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Sale</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Students</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">E-gift Codes</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Corporate orders</a>
+                </li>
+            </ul>
+        </div>
+        <div class="company-container">
+            <h3 class="footer--title">Company</h3>
+            <ul class="footer-links">
+                <li>
+                    <a href="#" class="footer--link">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Careers</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Become a Retailer</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Store Locator</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Ambassadors</a>
+                </li>
+                <li>
+                    <a href="#" class="footer--link">Aﬃliate Program</a>
+                </li>
+            </ul>
+        </div>
+        <p class="copyright">
+            &copy;caseiro. All Rights Reserved. Privacy Policy & Copyright Notice.
+        </p>
+    </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
